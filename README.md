@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Vet Clinic Database] <a name="clinic database"></a>
+# 📖 [school-library-OOP] <a name="school-library"></a>
 
 > This template should be used for database related projects at Microverse.
 > Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
@@ -135,9 +135,9 @@ ruby decrypt.rb
 
 👤 **Khaled Al-Khateeb**
 
-- GitHub: [@Khaled-AlKhateeb](https://github.com/Khaled-AlKhateeb)
-- Twitter: [@KhaledA93751489](https://twitter.com/KhaledA93751489)
-- LinkedIn: [khaled-al-khateeb](https://www.linkedin.com/in/khaled-al-khateeb-3a1013247/)
+- GitHub: [@jaamanu](https://github.com/jaamanu)
+- Twitter: [@JamesAsibeyManu](https://twitter.com/JamesAsibeyManu)
+- LinkedIn: [@jamesasibeymanu](https://www.linkedin.com/in/jamesasibeymanu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
