@@ -71,9 +71,9 @@ The project built using Ruby
 
 The app allows you to:
 
-Add new students or teachers.
-Add new books.
-Save records of who borrowed a given book and when.
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,22 +86,23 @@ Save records of who borrowed a given book and when.
 
 To get a local copy up and running, follow these steps.
 
-Prerequisites
+## Prerequisites
 In order to run this project you need:
 
 Ruby should be installed localy in your system.
 You need a code editore such as VsCode.
-Setup
+## Setup
 Clone this repository to your desired folder:
 
-Example commands:
+## Example commands:
 
   cd my-folder
   git clone https://github.com/jaamanu/school-library-OOP.git
-Install
+  
+## Install
 Install this project with:
 
-Example command:
+## Example command:
 
   cd my-project
   bundle install
@@ -110,7 +111,7 @@ To run the project, execute the following command:
 
 Example command:
 
-  ruby main.rb
+ruby main.rb
 For more information on how you can use this app, please follow this tutorial
 
 ## 👥 Authors <a name="authors"></a>
