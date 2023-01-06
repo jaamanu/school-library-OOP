@@ -94,7 +94,7 @@ You need a code editore such as VsCode.
 ## Setup
 Clone this repository to your desired folder:
 
-## Example commands:
+Example commands:
 
   cd my-folder
   git clone https://github.com/jaamanu/school-library-OOP.git
@@ -102,7 +102,7 @@ Clone this repository to your desired folder:
 ## Install
 Install this project with:
 
-## Example command:
+Example command:
 
   cd my-project
   bundle install
