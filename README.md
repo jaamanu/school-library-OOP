@@ -59,10 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [school-library-OOP] <a name="school-library"></a>
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
 
-**[Morse Code Message]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
