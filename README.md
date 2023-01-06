@@ -58,43 +58,23 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [school-library-OOP] <a name="school-library"></a>
-
-
+This repo is a school library tool that allows you to record what books are in the library and who borrows them, the project focused on practicing the main four concepts in oop using ruby
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li>Ruby</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://dev.mysql.com/doc/">SQL</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
+The project built using Ruby
 
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- **[Morse Decoder]**
+The app allows you to:
+
+Add new students or teachers.
+Add new books.
+Save records of who borrowed a given book and when.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,33 +84,38 @@ After you're finished please remove all the comments and instructions!
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
+Prerequisites
 In order to run this project you need:
 
-- Command line or terminal
-- IDE such as VsCode.
-- Ruby needs to be installed on your system.
-
-### Setup
-
+Ruby should be installed localy in your system.
+You need a code editore such as VsCode.
+Setup
 Clone this repository to your desired folder:
 
-git clone https://github.com/Khaled-AlKhateeb/morse-code-message.git
+Example commands:
 
-### Usage
+  cd my-folder
+  git clone https://github.com/jaamanu/school-library-OOP.git
+Install
+Install this project with:
 
+Example command:
+
+  cd my-project
+  bundle install
+Usage
 To run the project, execute the following command:
 
-ruby decrypt.rb
+Example command:
+
+  ruby main.rb
+For more information on how you can use this app, please follow this tutorial
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Khaled Al-Khateeb**
+👤 **JA MANU**
 
 - GitHub: [@jaamanu](https://github.com/jaamanu)
 - Twitter: [@JamesAsibeyManu](https://twitter.com/JamesAsibeyManu)
@@ -142,7 +127,7 @@ ruby decrypt.rb
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Khaled-AlKhateeb/morse-code-message/issues).
+Feel free to check the [issues page](https://github.com/jaamanu/school-library-OOP/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
