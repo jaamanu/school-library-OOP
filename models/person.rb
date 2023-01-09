@@ -22,6 +22,7 @@ class Person < Nameable
   def of_age?
     @age >= 18
   end
+
   private :of_age?
 
   # public method

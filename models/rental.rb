@@ -1,6 +1,6 @@
 class Rental
   # setters & getters
-  attr_reader :book, :parent_permission
+  attr_reader :book, :person
   attr_accessor :date
 
   # constructor
