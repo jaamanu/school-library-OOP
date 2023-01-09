@@ -2,7 +2,6 @@ require_relative 'nameable'
 require_relative 'capitalize_decorator'
 require_relative 'trimmer_decorator'
 require_relative 'rental'
-
 class Person < Nameable
   # getters & setters
   attr_reader :id
@@ -23,7 +22,6 @@ class Person < Nameable
     @age >= 18
   end
   private :of_age?
-
   # public method
   def can_use_services?
     of_age? || @parent_permission
