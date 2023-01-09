@@ -6,6 +6,7 @@ class Person < Nameable
   # getters & setters
   attr_reader :id
   attr_accessor :name, :age, :rentals
+
   # constructor
   def initialize(age, name = 'Unknown', parent_permission: true)
     super()
@@ -15,6 +16,7 @@ class Person < Nameable
     @parent_permission = parent_permission
     @rentals = []
   end
+
   # private method
   def of_age?
     @age >= 18
@@ -24,10 +26,12 @@ class Person < Nameable
   def can_use_services?
     of_age? || @parent_permission
   end
+
   # correct the person name method
   def correct_name
     @name
   end
+
   # add rental method
   def add_rental(date, book)
     Rental.new(date, book, self)
