@@ -100,6 +100,11 @@ For more information on how you can use this app, please follow this [tutorial](
 - Twitter: [@JamesAsibeyManu](https://twitter.com/jamesasibeymanu)
 - LinkedIn: [jamesasibeymanu](https://www.linkedin.com/in/jamesasibeymanu/)
 
+👤 **Kareem Magdy Wilson**
+
+- GitHub: [@KareemWilson](https://github.com/KareemWilson)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/kareem-wilsons)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
