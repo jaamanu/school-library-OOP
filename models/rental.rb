@@ -1,7 +1,6 @@
 class Rental
   # setters & getters
-  attr_reader :book, :person
-  attr_accessor :date
+  attr_accessor :date, :book, :person
 
   # constructor
   def initialize(date, book, person)
@@ -10,5 +9,9 @@ class Rental
     book.rentals << self
     @person = person
     person.rentals << self
+  end
+
+  def to_s
+    "Date: #{@date}, Book: \"#{book.title}\" by #{@book.author}"
   end
 end
