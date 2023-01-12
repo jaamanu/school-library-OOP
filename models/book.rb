@@ -1,5 +1,3 @@
-require_relative 'rental'
-
 class Book
   # setters & getters
   attr_accessor :title, :author, :rentals
@@ -12,7 +10,11 @@ class Book
   end
 
   # add rental method
-  def add_rental(date, person)
-    Rental.new(date, self, person)
+  def add_rental(book)
+    @rentals.push(book)
+  end
+
+  def to_s
+    "Title: \"#{@title}\", Author: #{author}"
   end
 end
