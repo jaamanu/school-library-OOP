@@ -1,20 +1,14 @@
-require_relative 'person'
-
+require_relative './person'
+# Teacher's information/actions in the library.
 class Teacher < Person
   attr_accessor :specialization
 
-  # constructor
-  def initialize(age:, specialization:, id: nil, name: 'Unknown', parent_permission: true)
-    super(id: id, name: name, age: age, parent_permission: parent_permission)
+  def initialize(age, specialization, name = 'Unknown', id = Random.rand(1..1000), parent_permission: true)
+    super(age, name, id, parent_permission: parent_permission)
     @specialization = specialization
   end
 
-  # public method
   def can_use_services?
     true
-  end
-
-  def to_s
-    "[Teacher] #{super}"
   end
 end

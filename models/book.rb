@@ -1,20 +1,14 @@
 class Book
-  # setters & getters
-  attr_accessor :title, :author, :rentals
+  attr_reader :rentals
+  attr_accessor :title, :author
 
-  # constructor
   def initialize(title, author)
     @title = title
     @author = author
     @rentals = []
   end
 
-  # add rental method
-  def add_rental(book)
-    @rentals.push(book)
-  end
-
-  def to_s
-    "Title: \"#{@title}\", Author: #{author}"
+  def add_rental(rental)
+    @rentals.push(rental)
   end
 end

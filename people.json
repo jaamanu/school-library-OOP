@@ -1,33 +1,4 @@
-[
-  {
-    "instance": "student",
-    "id": 938,
-    "age": "25",
-    "name": "namoe",
-    "permission": true,
-    "classroom": null
-  },
-  {
-    "instance": "teacher",
-    "id": 85,
-    "age": "56",
-    "name": "ajs",
-    "specialization": "it"
-  },
-  {
-    "instance": "student",
-    "id": 730,
-    "age": "14",
-    "name": "bahlool",
-    "permission": true,
-    "classroom": null
-  },
-  {
-    "instance": "student",
-    "id": 422,
-    "age": "23",
-    "name": "jkasd",
-    "permission": true,
-    "classroom": null
-  }
-]
+[{"instance":"student","id":938,"age":"25","name":"namoe","permission":true,"classroom":null},
+{"instance":"teacher","id":85,"age":"56","name":"ajs","specialization":"it"},
+{"instance":"student","id":730,"age":"14","name":"bahlool","permission":true,"classroom":null},
+{"instance":"student","id":422,"age":"23","name":"jkasd","permission":true,"classroom":null}]

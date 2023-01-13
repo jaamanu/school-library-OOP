@@ -1,45 +1,35 @@
-require_relative 'nameable'
-require_relative 'capitalize_decorator'
-require_relative 'trimmer_decorator'
+require_relative './nameable'
+require_relative './decorator'
 
-class Person
-  # getters & setters
-  attr_reader :id
-  attr_accessor :name, :age, :parent_permission, :rentals
+# Person's information/actions in the library.
+class Person < Nameable
+  attr_reader :id, :rentals, :parent_permission
+  attr_accessor :name, :age
 
-  # constructor
-  def initialize(id:, age:, name: 'Unknown', parent_permission: true)
-    @id = id
-    @id = Random.rand(1..1000) if @id.nil?
-    @name = name
+  def initialize(age, name = 'Unknown', id = Random.rand(1..1000), parent_permission: true)
+    super()
     @age = age
+    @name = name
     @parent_permission = parent_permission
+    @id = id
     @rentals = []
   end
 
-  # private method
-  def of_age?
-    @age >= 18
-  end
-
-  private :of_age?
-
-  # public method
   def can_use_services?
     of_age? || @parent_permission
   end
 
-  # correct the person name method
   def correct_name
     @name
   end
 
-  # add rental method
-  def add_rental(person)
-    @rentals.push(person)
+  def add_rental(rental)
+    @rentals.push(rental)
   end
 
-  def to_s
-    "Name: #{@name}, ID: #{@id}, Age: #{@age}"
+  private
+
+  def of_age?
+    @age >= 18
   end
 end
